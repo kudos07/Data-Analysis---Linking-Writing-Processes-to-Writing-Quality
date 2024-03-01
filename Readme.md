@@ -19,7 +19,7 @@ The analysis begins with comprehensive data preprocessing, adhering to the speci
 
 Our statistical analysis has revealed several key insights into the writing process variables that significantly impact writing quality. The bar graph below illustrates the p-values obtained for each variable under different conditions:
 
-![P-values for Variables](Output pictures/comparisions.png)
+![P-values for Variables](Output result for hypo 1/Output pictures/comparisions.png)
 
 Variables with p-values falling below the red dashed line meet the commonly accepted threshold for statistical significance (p < 0.05), suggesting a potential influence on writing quality that is unlikely to be due to chance. This visual representation aids in quickly identifying which aspects of the writing process may warrant further investigation and possible inclusion in models predicting writing quality.
 
