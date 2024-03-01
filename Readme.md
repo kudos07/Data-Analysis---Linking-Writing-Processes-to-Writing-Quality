@@ -35,4 +35,4 @@ Ensure you have R installed on your system. This project uses R
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/YourUsername/Data-Analysis---Linking-Writing-Processes-to-Writing-Quality.git
+   git clone https://github.com/kudos07/Data-Analysis---Linking-Writing-Processes-to-Writing-Quality.git
