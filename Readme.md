@@ -1,28 +1,38 @@
-# Writing Processes to Writing Quality Analysis
+# Linking Writing Processes to Writing Quality Analysis
 
-This repository contains the code and analysis for the "Linking Writing Processes to Writing Quality" Kaggle competition. The dataset and competition details can be found on the Kaggle competition page: [Linking Writing Processes to Writing Quality](https://www.kaggle.com/competitions/linking-writing-processes-to-writing-quality).
+This repository hosts the code and analytical processes for the "Linking Writing Processes to Writing Quality" project, which was part of a Kaggle competition. The project aims to uncover the connections between how individuals write and the quality of their writing. By applying statistical analyses and machine learning techniques, we explore the intricate dynamics of writing processes.
 
-## Overview
+## Project Overview
 
-This project focuses on analyzing the relationship between writing processes and writing quality. The analysis involves hypothesis testing, specifically using a Z-test for the first hypothesis and Multiple Linear Regression (MLR) for the second hypothesis. Additionally, extensive preprocessing steps were performed on the data as mentioned in the Kaggle competition details.
+This analysis delves into the correlation between the methodologies of writing and the resultant quality, leveraging a dataset specifically curated for this purpose, as detailed in the [Kaggle competition](https://www.kaggle.com/competitions/linking-writing-processes-to-writing-quality). The project encompasses hypothesis testing, employing a Z-test for initial inquiries, followed by Multiple Linear Regression (MLR) to investigate the influence of various writing processes on writing quality.
 
-## Kaggle Dataset
+### Hypotheses and Analysis Techniques
 
-The dataset used for this analysis is available on Kaggle: [Linking Writing Processes to Writing Quality Dataset](https://www.kaggle.com/competitions/linking-writing-processes-to-writing-quality). Please refer to the Kaggle competition page for details on the dataset and the problem statement.
+- **Z-Test for the First Hypothesis:** A statistical approach to explore the initial hypothesis concerning writing methodologies.
+- **Multiple Linear Regression (MLR) for the Second Hypothesis:** An in-depth analysis using MLR to examine how different writing processes affect the quality of writing.
 
-## Hypotheses and Analysis Techniques
+### Data Preprocessing
 
-1. **Z-Test for the First Hypothesis:** Our analysis involves a Z-test to investigate the first hypothesis related to writing processes.
+The analysis begins with comprehensive data preprocessing, adhering to the specifications provided in the Kaggle competition details. This phase includes managing missing values, normalizing data, and other preparatory steps crucial for subsequent analysis.
 
-2. **Multiple Linear Regression (MLR) for the Second Hypothesis:** We utilized MLR to explore the relationship between multiple variables, linking writing processes to writing quality.
+## Analysis Results
 
-## Preprocessing
+Our statistical analysis has revealed several key insights into the writing process variables that significantly impact writing quality. The bar graph below illustrates the p-values obtained for each variable under different conditions:
 
-Significant preprocessing steps were undertaken as outlined in the Kaggle competition details. This included handling missing data, normalization, and any other steps necessary to prepare the data for analysis.
+![P-values for Variables](Output for hypo 2/comparisions.png)
+
+Variables with p-values falling below the red dashed line meet the commonly accepted threshold for statistical significance (p < 0.05), suggesting a potential influence on writing quality that is unlikely to be due to chance. This visual representation aids in quickly identifying which aspects of the writing process may warrant further investigation and possible inclusion in models predicting writing quality.
 
 ## Getting Started
 
-1. Clone the repository:
+To get a local copy up and running, follow these simple steps:
 
+### Prerequisites
+
+Ensure you have Python installed on your system. This project uses Python 3.x.
+
+### Installation
+
+1. Clone the repository:
    ```bash
-   git clone https://github.com/kudos07/Data-Analysis---Linking-Writing-processes-to-Writing-Quality.git
+   git clone https://github.com/YourUsername/Data-Analysis---Linking-Writing-Processes-to-Writing-Quality.git
