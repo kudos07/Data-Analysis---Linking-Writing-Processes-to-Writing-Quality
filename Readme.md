@@ -29,7 +29,7 @@ To get a local copy up and running, follow these simple steps:
 
 ### Prerequisites
 
-Ensure you have Python installed on your system. This project uses Python 3.x.
+Ensure you have R installed on your system. This project uses R
 
 ### Installation
 
